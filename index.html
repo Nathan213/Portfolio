@@ -11,6 +11,12 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="background">
+            <img src="images/shoot.png" alt="">
+        </div>
+        <div id="mute">
+            <img id= "muteButton" src="images/mute.png" alt="">
+        </div>
         <div class="container">
             
             <div class="tank">
@@ -42,10 +48,16 @@
         <div id="down" class="down"></div>
         <div id="left" class="left"></div>
         <div id="right" class="right"></div>
-
+        
     </div>
-
-    <div class="startScreen">overlay</div>
+        
+    <div class="startScreen" id="startScreen">
+        
+        <video autoplay muted loop id="tankVid">
+            <source src="images/tank.mp4" type="video/mp4">
+          </video>    
+        <button class="button" onclick="enterPage()">Let's shoot my projects</button>
+    </div>
 
     <script src="script.js" ></script>
     

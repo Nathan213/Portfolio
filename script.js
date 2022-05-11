@@ -156,3 +156,25 @@ function rightMove(){
     }
 }
 setInterval(rightMove,150)
+
+var button = document.querySelector(".button");
+function enterPage(){
+    $( "#startScreen" ).fadeOut( "slow");
+}
+
+var mute = true;
+var video=document.getElementById("tankVid");
+document.getElementById("mute").onmousedown = function () {
+    muteButton = document.getElementById("muteButton");
+    if (mute == true){
+        muteButton.src = "images/unmute.png";
+        mute = false;
+        video.muted = !video.muted;
+    } else if (mute == false){
+        muteButton.src = "images/mute.png";
+        video.muted = !video.muted;
+        mute = true;
+    }
+    
+    // video.muted = !video.muted;
+}
