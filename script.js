@@ -43,7 +43,7 @@ document.getElementById("one").onmousedown = function () {
     }
     setTimeout(fade, 780);
     function load() {
-        window.location = "http://youtube.com/";
+        window.location = "https://nathan213.github.io/Assignment1/";
     }
     setTimeout(load, 790);
 };
@@ -57,7 +57,7 @@ document.getElementById("two").onmousedown = function () {
     }
     setTimeout(fade, 780);
     function load() {
-        window.location = "http://youtube.com/";
+        window.location = "https://dktpt44.github.io/ComLab-ComicStrip/";
     }
     setTimeout(load, 790);
 };
@@ -71,7 +71,7 @@ document.getElementById("three").onmousedown = function () {
     }
     setTimeout(fade, 780);
     function load() {
-        window.location = "http://youtube.com/";
+        window.location = "https://ava-creates.github.io/sound_project/";
     }
     setTimeout(load, 790);
 };
@@ -85,7 +85,7 @@ document.getElementById("four").onmousedown = function () {
     }
     setTimeout(fade, 780);
     function load() {
-        window.location = "http://youtube.com/";
+        window.location = "https://mission-ulens-brief.netlify.app/";
     }
     setTimeout(load, 790);
 };
