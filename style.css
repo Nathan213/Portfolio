@@ -114,7 +114,7 @@
         top: 80%;
     }
     .down{
-        background-color: red;
+        content: url(images/down.png);
         width: 5%;
         padding-top: 5%;
         position: absolute;
@@ -122,7 +122,7 @@
         top: 90%;
     }
     .left{
-        background-color: red;
+        content: url(images/left.png);
         width: 5%;
         padding-top: 5%;
         position: absolute;
