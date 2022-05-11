@@ -1,0 +1,151 @@
+.body {
+    margin: 0;
+}
+.container{
+    width: 5%;
+    top: 45%;
+    left: 48%;
+    position: absolute;
+    transition:  300ms ;
+    transform-origin: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.tank {
+    position: absolute;
+    transform-origin: 47% 29%;
+}
+.tank img {
+    width: 100%;
+}
+
+.aim{
+    position: absolute;
+    transform-origin: 38% 20% ;
+    left: 30%;
+}
+.aim img {
+    width: 75%;
+}
+
+.one{
+    width: 18%;
+    left: 5%;
+    top: 5%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cinema{
+    width: 100%;
+}
+#cinemaExplosion{
+    position: absolute;
+    width: 100%;
+}
+
+.two{
+
+    width: 10%;
+    left: 7%;
+    top: 65%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#comic{
+    width: 100%;
+}
+#comicExplosion{
+    position: absolute;
+    width: 100%;
+}
+
+.three{
+
+    width: 17%;
+    left: 78%;
+    top: 7%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sound{
+    width: 100%;
+}
+#soundExplosion{
+    position: absolute;
+    width: 100%;
+}
+
+.four{
+
+    width: 16%;
+    left: 78%;
+    top: 68%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#video{
+    width: 100%;
+}
+#videoExplosion{
+    position: absolute;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .up{
+        content: url(images/up.png);
+        width: 5%;
+        padding-top: 5%;
+        position: absolute;
+        left: 48%;
+        top: 80%;
+    }
+    .down{
+        background-color: red;
+        width: 5%;
+        padding-top: 5%;
+        position: absolute;
+        left: 48%;
+        top: 90%;
+    }
+    .left{
+        background-color: red;
+        width: 5%;
+        padding-top: 5%;
+        position: absolute;
+        left: 30%;
+        top: 85%;
+    }
+    .right{
+        content: url(images/right.png);
+        width: 5%;
+        padding-top: 5%;
+        position: absolute;
+        left: 66%;
+        top: 85%;
+    }
+  }
+
+
+/* .startScreen {
+    position: absolute;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+} */
