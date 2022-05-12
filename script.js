@@ -34,6 +34,9 @@ document.body.onkeydown = () => {
     }
 }
 
+var snd = new Audio("images/explosion.mp3"); // buffers automatically when created
+// snd.play();
+
 document.getElementById("one").onmousedown = function () {
     cinemaExplosion = document.getElementById("cinemaExplosion")
     cinemaExplosion.src="images/explosion.gif";
@@ -46,6 +49,7 @@ document.getElementById("one").onmousedown = function () {
         window.location = "https://nathan213.github.io/Assignment1/";
     }
     setTimeout(load, 790);
+    snd.play();
 };
 
 document.getElementById("two").onmousedown = function () {
